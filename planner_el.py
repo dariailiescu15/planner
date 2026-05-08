@@ -103,12 +103,12 @@ if "tasks" not in st.session_state:
     st.session_state.tasks = load_tasks()
 
 # --- TITLUL APLICAȚIEI ---
-st.title("🎯 Planner Obiective")
+st.title("🎯 Planner ")
 st.write("Planifică-ți ziua și atinge-ți obiectivele. No excuses.")
 
 # --- SECȚIUNEA DE ADĂUGARE TASK ---
 with st.container():
-    st.subheader("🛠️ Adaugă o Misiune")
+    st.subheader("🛠️ Adaugă task")
     col1, col2 = st.columns([1, 2])
     
     with col1:
