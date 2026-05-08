@@ -55,7 +55,7 @@ if "tasks" not in st.session_state:
     st.session_state.tasks = load_tasks()
 
 # --- TITLUL APLICAȚIEI ---
-st.title("🌸 Plannerul Meu Roz")
+st.title("🌸 Planner ")
 st.write("Adaugă task-urile tale și organizează-ți ziua!")
 
 # --- SECȚIUNEA DE ADĂUGARE TASK ---
